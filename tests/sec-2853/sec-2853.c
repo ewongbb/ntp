@@ -49,7 +49,6 @@ int basic_good( void )
 {
 	const char string[] = "good";
 	const char *EOstring;
-	char *cp;
 	size_t len;
 	int failed;
 
@@ -74,7 +73,6 @@ int embedded_nul( void )
 {
 	const char string[] = "nul\0 there";
 	const char *EOstring;
-	char *cp;
 	size_t len;
 	int failed;
 
@@ -99,7 +97,6 @@ int trailing_space( void )
 {
 	const char string[] = "trailing space ";
 	const char *EOstring;
-	char *cp;
 	size_t len;
 	int failed;
 
